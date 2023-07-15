@@ -4,9 +4,7 @@ let cardContainer = document.querySelector('.card_container')
 const body = document.body
 let serarchbtn = document.getElementById('searchbtn')
 serarchbtn.addEventListener('click', () => {
-//new change
-//second change 
-//fourth change
+//totally new change
   let searchtxt = serarchResult.value
   let url = `http://www.omdbapi.com/?apikey=caf49d7e&s=${searchtxt}&plot=Short`;
   fetch(url)
